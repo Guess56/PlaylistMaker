@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Playlist maker"
+        android:textSize="22sp"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/search"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        android:text="@string/search"
+        android:textColor="@color/colortext"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:icon="@drawable/serch"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/media"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        android:text="@string/media"
+        android:textAllCaps="false"
+        android:textColor="@color/colortext"
+        android:textSize="22sp"
+        app:icon="@drawable/media"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/option"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="16dp"
+        android:text="@string/option"
+        android:textAllCaps="false"
+        android:textColor="@color/colortext"
+        android:textSize="22sp"
+        app:icon="@drawable/option"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="@color/black"/>
+</LinearLayout>
+
+
+
+
+
+
